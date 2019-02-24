@@ -2,10 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `jongp.me`,
     author: `JongGyun Park`,
-    description: `A Front-end Developer.`,
-    siteUrl: `https://github.com/jonggyun/`,
+    description: `A Front-End Developer.`,
+    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      github: `jonggyun`,
     },
   },
   plugins: [
@@ -74,5 +74,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-sass`,
   ],
 };
