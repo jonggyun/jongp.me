@@ -19,11 +19,22 @@ githubTheme.overrideThemeStyles = () => {
     },
     'h3 a:hover': {
       textDecoration: 'none',
-      color: '#485460',
+      color: '#868e96',
     },
     h1: {
       border: 0,
       fontWeight: 900,
+    },
+    footer: {
+      display: 'flex',
+      flexDirection: 'row-reverse',
+      marginTop: '2rem',
+    },
+    'footer a': {
+      fontWeight: 'bold',
+    },
+    ul: {
+      margin: 0,
     },
   };
 };

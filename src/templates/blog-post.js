@@ -6,8 +6,12 @@ import Layout from '../components/Layout';
 import SEO from '../components/Seo';
 import { rhythm, scale } from '../utils/typography';
 
+import './styles.scss';
+import '../styles/markdown.scss';
+
 class BlogPostTemplate extends React.Component {
   render() {
+    console.log('post Template', this.props.data);
     const post = this.props.data.markdownRemark;
     const siteTitle = this.props.data.site.siteMetadata.title;
     const { previous, next } = this.props.pageContext;
@@ -26,7 +30,10 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div
+          className="markdown-body"
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -34,15 +41,7 @@ class BlogPostTemplate extends React.Component {
         />
         <Bio />
 
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
+        <ul className="post-list">
           <li>
             {previous && (
               <Link to={previous.fields.slug} rel="prev">
