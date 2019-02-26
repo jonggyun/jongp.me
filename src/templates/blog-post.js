@@ -11,7 +11,7 @@ import '../styles/markdown.scss';
 
 class BlogPostTemplate extends React.Component {
   render() {
-    console.log('post Template', this.props.data);
+    console.log('post Template', this.props.pageContext);
     const post = this.props.data.markdownRemark;
     const siteTitle = this.props.data.site.siteMetadata.title;
     const { previous, next } = this.props.pageContext;
@@ -40,7 +40,6 @@ class BlogPostTemplate extends React.Component {
           }}
         />
         <Bio />
-
         <ul className="post-list">
           <li>
             {previous && (
@@ -50,7 +49,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
           <li>
-            {next && (
+            {next && next.frontmatter.date && (
               <Link to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
               </Link>

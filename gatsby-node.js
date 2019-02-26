@@ -19,8 +19,7 @@ exports.createPages = ({ graphql, actions }) => {
               }
               frontmatter {
                 title
-                category
-                path
+                tags
               }
             }
           }
