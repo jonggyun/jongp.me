@@ -10,7 +10,6 @@ import './styles.scss';
 
 class BlogIndex extends React.Component {
   render() {
-    console.log('BlogIndex', this.props.data.allMarkdownRemark.edges);
     const { data } = this.props;
     const siteTitle = data.site.siteMetadata.title;
     const posts = data.allMarkdownRemark.edges;

@@ -11,7 +11,6 @@ import '../styles/markdown.scss';
 
 class BlogPostTemplate extends React.Component {
   render() {
-    console.log('post Template', this.props.pageContext);
     const post = this.props.data.markdownRemark;
     const siteTitle = this.props.data.site.siteMetadata.title;
     const { previous, next } = this.props.pageContext;
