@@ -5,6 +5,8 @@ import Image from 'gatsby-image';
 import { rhythm } from '../../utils/typography';
 import AboutBtn from '../AboutBtn';
 
+import './styles.scss';
+
 function Bio() {
   return (
     <StaticQuery

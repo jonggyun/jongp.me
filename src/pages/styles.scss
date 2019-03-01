@@ -12,5 +12,8 @@
   .about-div {
     width: 48.75rem;
     padding: 2.8125rem;
+    @media screen and (max-width: 420px) {
+      padding: 1rem;
+    }
   }
 }

@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `jongp.me`,
-    author: `JongGyun Park`,
+    author: `jongp`,
     description: `A Front-End Developer.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://jongp.me`,
     social: {
       github: `jonggyun`,
     },
