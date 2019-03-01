@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 
-//import 'normalize.css';
+//import 'normalize.scss';
 
 import Bio from '../components/Bio';
 import Layout from '../components/Layout';
