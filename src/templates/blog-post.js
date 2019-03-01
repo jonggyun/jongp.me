@@ -37,7 +37,7 @@ class BlogPostTemplate extends React.Component {
         <Bio />
         <ul className="post-list">
           <li>
-            {previous && (
+            {previous && previous.frontmatter.date && (
               <Link to={previous.fields.slug} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>

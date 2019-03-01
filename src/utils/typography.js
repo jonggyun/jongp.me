@@ -25,6 +25,9 @@ githubTheme.overrideThemeStyles = () => {
       border: 0,
       fontWeight: 900,
     },
+    h2: {
+      borderBottom: 'none',
+    },
     footer: {
       display: 'flex',
       flexDirection: 'row-reverse',
