@@ -56,6 +56,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "now-build": "npm run build"
+    "now-build": "npm run build",
+    "now:prod": "now && now alias"
   }
 }
