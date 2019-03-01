@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 
-//import 'normalize.scss';
-
 import Bio from '../components/Bio';
 import Layout from '../components/Layout';
 import SEO from '../components/Seo';
@@ -35,11 +33,7 @@ class BlogPostTemplate extends React.Component {
           className="markdown-body"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
+        <div style={{ marginTop: rhythm(2) }} />
         <Bio />
         <ul className="post-list">
           <li>

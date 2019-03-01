@@ -6,7 +6,6 @@ import Layout from '../components/Layout';
 import SEO from '../components/Seo';
 import { rhythm } from '../utils/typography';
 
-//import 'normalize.scss';
 import './styles.scss';
 
 class BlogIndex extends React.Component {

@@ -4,73 +4,41 @@ detail: 'About'
 
 # 박 종균 (JongGyun Park)
 
-그 순간을 위한 코딩이 아닌 향후를 생각하는 개발을 하고, 지금 방법 보다 더 나은 방법이 없을까 항상 고민하고 해결해나가는 개발자를 목표로 하고 있는 **박 종균**입니다.
+**Javascript** 그리고 **React**를 좋아하는 프론트엔트 개발자입니다.
 
-이전까지 **Java**, **JSP**를 이용한 웹개발을 하고, 현재는 **React**를 이용한 Front-End 개발을 하고 있습니다.
+그 순간을 위한 코딩이 아닌 향후를 생각하는 개발을 하고, 지금 방법 보다 더 나은 방법이 없을까 항상 고민하고 해결해나가는 개발자를 목표로 하고 있습니다.
 
-익숙한 방식에 머무르지 않고 조금이라도 더 나은 방식을 찾기 위해 새로운 기술을 습득하는데 노력하고 있습니다.
+### [GitHub](https://github.com/jonggyun/)
 
-가장 관심있는 언어는 Javascript입니다. 현재 Javascript의 **node.js**, **React**등에 관심을 갖고 공부하고 있습니다.
-
-<!-- patience
-laziness -->
-
-# Study
-
-### 현재 관심을 갖고 공부 중인 분야입니다.
-
-- Markup Language - HTML5
-
-- CSS3
-
-- CSS Preprocessor - Sass
-
-- Javascript - ECMAScript 2015
-
-- webpack
-
-* React + redux
-
-* node.js - express
-
-* NoSQL - mongoDB(mongoose)
-
-# Skill
-
-### Skill은 현업에서 사용 중인 기술입니다.
+> ## Skills
 
 **Front-End :** JavaScript, jQuery, React
 
-**Back-End :** Java(with egovFramework)
+**Back-End :** Java(with egovFramework), node.js
 
 **DataBase :** MariaDB, MySQL, Oracle
 
 **Etc :** myBaits, iBatis
 
-# Career
+> ## Work Experience
 
 **Plutusds** 2019.02 ~ Current
 
-- React를 이용한 Front-End 개발 및 유지보수
+- React SPA 유지보수
 
 **Kaoni** 2017.06 ~ 2019.01
 
-- 그룹웨어 신규모듈 및 기능 개발 및 유지보수
+- Java, jQuery를 이용한 그룹웨어 신규모듈 및 기능 개발 및 유지보수
 
-- 공공기관 SI 프로젝트 개발 및 유지보수
+- Java, jQuery를 이용한 공공기관 SI 프로젝트 개발 및 유지보수
 
 **Postopia** 2016.01 ~ 2017.05
 
-- 사내 솔루션 추가 개발 및 유지보수
+- Java로 된 사내 솔루션 추가 개발 및 유지보수
 
-- SI 프로젝트 개발 및 유지보수
+- Java, jQuery릴 이용한 사내 SI 프로젝트 개발 및 유지보수
 
-  <!-- 
-  **ION Comunications**(Internship) 2014.08 ~ 2015.02
-
-* SI 프로젝트 개발 -->
-
-# Career Detail
+> ## Work Experience Details
 
 **at Kaoni**
 
@@ -92,11 +60,7 @@ laziness -->
 
   전자결재 모듈 및 기타 모듈의 고객 사이트 유지보수
 
-  - 리딩투자증권 그룹웨어 커스터마이징 및 유지보수
-
-  - 가온아이 자체 그룹웨어 커스터마이징 및 유지보수
-
-  - 료비그룹 그룹웨어 커스터마이징 및 유지보수
+  - 리딩투자증권, 일본 료비그룹, 사내 그룹웨어 커스터마이징 및 유지보수
 
   Java와 JavaScript를 이용한 XML 기반의 타사 통합검색엔진 연동 모듈 개발 `참여인원: 1명`
 
@@ -104,7 +68,7 @@ laziness -->
 
   Java의 DirContext를 이용한 Windows 서버의 계층형 데이터베이스 ActiveDirectory의 조직도 연동 모듈 개발 `참여인원: 1명`
 
-  REST Api를 기반으로 하고 Java, JavaScript 그리고 Jui Framework를 이용한 그래프로 보여주는 실시간 Linux 서버 시스템모니터링 모듈 개발 `참여인원: 1명`
+  Java로 만든 REST Api, JavaScript 그리고 Jui Framework를 이용한 그래프로 보여주는 실시간 Linux 서버 시스템모니터링 모듈 개발 `참여인원: 1명`
 
 **at Postopia**
 
@@ -118,13 +82,11 @@ laziness -->
 
   사내 솔루션 유지 보수 및 고객 지원
 
-# Study & Project source
+> ## Projects
 
 - [jongp-Lab](https://github.com/jonggyun/jongp-lab)
 
     <!-- - [개발 진행사항 - 블로그내용](https://jongp.me/ready-to-jongplab/) -->
-
-  - 개인적으로 사용할 블로그
 
   - 목표: React를 사용한 Web Application 만들기
 
@@ -143,7 +105,7 @@ laziness -->
 
   - Back-end: Node.js(Koa Framework) -->
 
-- [Movieeeeeegle](https://github.com/jonggyun/movie-search-typescript)
+<!-- - [Movieeeeeegle](https://github.com/jonggyun/movie-search-typescript)
 
   - Naver의 영화 검색 api를 이용한 정말 간단한 영화 검색 웹 애플리케이션
 
@@ -159,4 +121,4 @@ laziness -->
 
   - Front-end: VanillaJS, ES6, Sass
 
-  - Back-end: Node.js(express)
+  - Back-end: Node.js(express) -->

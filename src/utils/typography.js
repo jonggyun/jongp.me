@@ -36,6 +36,9 @@ githubTheme.overrideThemeStyles = () => {
     ul: {
       margin: 0,
     },
+    hr: {
+      background: 'none',
+    },
   };
 };
 
