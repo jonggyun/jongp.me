@@ -12,7 +12,7 @@ detail: 'About'
 
 > ## Skills
 
-**Front-End :** Javascript, Reactm, jQuery
+**Front-End :** Javascript, React, jQuery
 
 **Back-End :** Java(with egovFramework), node.js
 
@@ -46,7 +46,7 @@ detail: 'About'
 
   MariaDB, Java를 이용한 REST Api Back-end 개발
 
-  VanillaJS를 이용한 Front-end 개발
+  Vanilla JS를 이용한 Front-end 개발
 
 - 공공기관 SI 프로젝트(2018.03 ~ 2018.06)
 
@@ -90,7 +90,7 @@ detail: 'About'
 
     <!-- - [개발 진행사항 - 블로그내용](https://jongp.me/ready-to-jongplab/) -->
 
-  - 목표: React를 사용한 Web Application 만들기
+  - 목표: React Web Application 만들기
 
   - Front-end: React, redux, Sass, cssModule
 
