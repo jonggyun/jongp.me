@@ -40,6 +40,12 @@ detail: 'About'
 
 > ## Work Experience Details
 
+**at Plutusds**
+
+- Front-End Developer
+
+  React를 이용한 서비스 유지보수 및 개발
+
 **at Kaoni**
 
 - 그룹웨어 신규 포탈 프로젝트(2018.09 ~ 2018.11) `참여인원: 4명`
@@ -95,6 +101,14 @@ detail: 'About'
   - Front-end: React, redux, Sass, cssModule
 
   - Back-end: Node.js(express), mongoDB, mongoose
+
+- [box-officinfo](https://github.com/jonggyun/box-officinfo.git)
+
+  - 목표: Typescript, React Hooks, styled-componenent
+
+  - 영화진흥위원회 api를 이용한 static page Project
+
+  - Front-end: React(hooks), typescript, redux, redux thunk, styled-component
 
 <!--
 * [메모장](https://github.com/jonggyun/memo-app)
