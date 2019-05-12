@@ -12,7 +12,7 @@ detail: 'About'
 
 > ## Skills
 
-**Front-End :** Javascript, React, jQuery
+**Front-End :** Javascript, React, jQuery, sass, styled-components, es6
 
 **Back-End :** Java(with egovFramework), node.js
 
@@ -92,6 +92,14 @@ detail: 'About'
 
 > ## Projects
 
+- [box-officinfo](https://github.com/jonggyun/box-officinfo.git)
+
+  - 목표: Typescript, React Hooks, styled-componenent
+
+  - 영화진흥위원회 api를 이용한 static page Project
+
+  - Front-end: React(hooks), typescript, redux, redux thunk, styled-component
+
 - [jongp-Lab](https://github.com/jonggyun/jongp-lab)
 
     <!-- - [개발 진행사항 - 블로그내용](https://jongp.me/ready-to-jongplab/) -->
@@ -101,14 +109,6 @@ detail: 'About'
   - Front-end: React, redux, Sass, cssModule
 
   - Back-end: Node.js(express), mongoDB, mongoose
-
-- [box-officinfo](https://github.com/jonggyun/box-officinfo.git)
-
-  - 목표: Typescript, React Hooks, styled-componenent
-
-  - 영화진흥위원회 api를 이용한 static page Project
-
-  - Front-end: React(hooks), typescript, redux, redux thunk, styled-component
 
 <!--
 * [메모장](https://github.com/jonggyun/memo-app)
