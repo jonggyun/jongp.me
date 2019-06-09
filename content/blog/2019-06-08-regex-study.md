@@ -69,9 +69,9 @@ tags:
 
     -> [ 'glib', 'jocks', 'vex', 'dwarves!' ]
 
-  - ex) /[^\s]/g : 전체 중에 whitespace만 찾는다. 위의 예제와 같다. set안에서의 ^가 Negated를 뜻하기 때문이다.
+  - ex) /[\^\s]/g : 전체 중에 whitespace만 찾는다. 위의 예제와 같다. set안에서의 ^가 Negated를 뜻하기 때문이다.
 
-    'glib jocks vex dwarves!'.split(/[^\s]/g)
+    'glib jocks vex dwarves!'.split(/[\^\s]/g)
 
     -> [ 'glib', 'jocks', 'vex', 'dwarves!' ]
 
@@ -81,7 +81,7 @@ tags:
 
   w는 word를 뜻한다. \w는 영숫자 및 언더바를 모두 찾아낸다. /\w/g는 /[a-zA-Z0-9_]/g와 같은 역할을 한다.
 
-  \W는 영숫자 및 언더바를 제외한 다른 것들을 뜻한다. /\W/g는 /[^a-za-z0-9_]/g와 같은 역할을 한다.
+  \W는 영숫자 및 언더바를 제외한 다른 것들을 뜻한다. /\W/g는 /[\^a-za-z0-9_]/g와 같은 역할을 한다.
 
   ^는 set안에 있을 때 Negated의 역할을 한다. set 밖에 있을 경우엔 문자열의 시작과 일치하는 것을 찾는다.
 
@@ -99,4 +99,4 @@ tags:
 
       '+82)02-1234-1294'.replace(/\D/g, '') -> 820212341294
 
-      '010-1234-1235'.replace(/[^\d]/g, '') -> 01012341235
+      '010-1234-1235'.replace(/[\^\d]/g, '') -> 01012341235
