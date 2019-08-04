@@ -22,7 +22,9 @@ detail: 'About'
 
 **Plutusds** 2019.02 ~ Current
 
-- React SPA 유지보수
+- React SPA 유지보수
+
+- UI/UX를 고려한 페이지 리뉴얼 (메인, 마이페이지, 거래페이지 등)
 
 **Kaoni** 2017.06 ~ 2019.01
 
@@ -94,7 +96,7 @@ detail: 'About'
 
 - [box-officinfo](https://github.com/jonggyun/box-officinfo.git)
 
-  - 목표: Typescript, React Hooks, styled-componenent
+  - 목표: Typescript, React Hooks, styled-componenents
 
   - 영화진흥위원회 api를 이용한 static page Project
 
