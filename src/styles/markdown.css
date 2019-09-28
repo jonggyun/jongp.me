@@ -1,0 +1,6 @@
+pre[class*='language-'] {
+  background-color: #2c3a47;
+  padding: 1.3125rem;
+  border-radius: 0.625rem;
+  font-size: 0.875rem;
+}

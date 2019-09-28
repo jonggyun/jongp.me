@@ -1,5 +1,6 @@
 ---
-detail: 'About'
+title: About JongGyun Park
+description: About JongGyun Park
 ---
 
 # 박 종균 (JongGyun Park)

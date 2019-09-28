@@ -1,36 +1,45 @@
-import React from 'react';
+import React, { Component } from 'react';
+import SEO from '../components/seo';
+import { graphql } from 'gatsby';
 
-import './styles.scss';
-import '../styles/markdown.scss';
+import Layout from '../components/layout';
 
-class AboutPage extends React.Component {
+import '../styles/markdown.css';
+
+class About extends Component {
   render() {
-    const node = this.props.data.allMarkdownRemark.edges[0].node;
+    const about = this.props.data.markdownRemark;
+    const siteTitle = this.props.data.site.siteMetadata.title;
+
     return (
-      <section className="about-page">
-        <div
-          className="markdown-body about-div"
-          dangerouslySetInnerHTML={{ __html: node.html }}
+      <Layout location={this.props.location} title={siteTitle}>
+        <SEO
+          title={about.frontmatter.title}
+          description={about.frontmatter.description}
         />
-      </section>
+        <article>
+          <section dangerouslySetInnerHTML={{ __html: about.html }} />
+        </article>
+      </Layout>
     );
   }
 }
 
-export default AboutPage;
+export default About;
 
-export const pageQuery = graphql`
+export const AboutQuery = graphql`
   query {
-    allMarkdownRemark(filter: { frontmatter: { title: { eq: "" } } }) {
-      edges {
-        node {
-          id
-          excerpt(pruneLength: 160)
-          html
-          frontmatter {
-            title
-          }
-        }
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    markdownRemark(frontmatter: { date: { eq: null } }) {
+      id
+      html
+      frontmatter {
+        title
+        description
       }
     }
   }

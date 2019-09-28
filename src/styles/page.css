@@ -1,0 +1,16 @@
+.about-btn {
+  background-color: #fbc531;
+  padding: 0px 0.875rem;
+  margin-left: 0.3125rem;
+  color: #f5f6fa;
+  border-radius: 0.9375rem;
+  transform: rotate(-4deg);
+  box-shadow: none;
+  display: inline-block;
+  font-size: 0.875rem;
+}
+
+.about-btn:hover {
+  transform: rotate(0deg);
+  transition-duration: 0.3s;
+}

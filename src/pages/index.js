@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 
-import Bio from '../components/Bio';
-import Layout from '../components/Layout';
-import SEO from '../components/Seo';
+import Bio from '../components/bio';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 import { rhythm } from '../utils/typography';
-
-import './styles.scss';
+import '../styles/page.css';
 
 class BlogIndex extends React.Component {
   render() {
@@ -16,27 +15,32 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO
-          title="main"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
-        />
+        <SEO title="All posts" />
         <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug;
           return (
-            <div className="post" key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small className="post-date">{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-            </div>
+            <article key={node.fields.slug}>
+              <header>
+                <h3
+                  style={{
+                    marginBottom: rhythm(1 / 4),
+                  }}
+                >
+                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                    {title}
+                  </Link>
+                </h3>
+                <small>{node.frontmatter.date}</small>
+              </header>
+              <section>
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: node.frontmatter.description || node.excerpt,
+                  }}
+                />
+              </section>
+            </article>
           );
         })}
       </Layout>
@@ -54,7 +58,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { frontmatter: { title: { ne: "" } } }
+      filter: { frontmatter: { date: { ne: null } } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -66,6 +70,7 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            description
           }
         }
       }

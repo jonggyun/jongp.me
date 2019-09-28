@@ -1,6 +1,7 @@
 ---
-title: '2018 회고록'
-date: '2018-12-27'
+title: 2018 회고록
+date: 2018-12-27
+description: 2018 회고록
 tags:
   - '2018'
   - 'memorior'
