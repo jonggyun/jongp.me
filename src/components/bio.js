@@ -39,7 +39,7 @@ const Bio = () => {
     }
   `);
 
-  const { author, social } = data.site.siteMetadata;
+  const { author } = data.site.siteMetadata;
 
   return (
     <div
@@ -70,7 +70,11 @@ const Bio = () => {
             About Me
           </Link>
         </div>
-        <a href="https://github.com/jonggyun" target="_blank">
+        <a
+          href="https://github.com/jonggyun"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <Image fixed={data.github.childImageSharp.fixed} alt="github" />
         </a>
       </section>

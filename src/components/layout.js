@@ -64,7 +64,11 @@ class Layout extends React.Component {
         <main>{children}</main>
         {location.pathname === rootPath ? (
           <footer>
-            <a href="https://github.com/jonggyun" target="_blank">
+            <a
+              href="https://github.com/jonggyun"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               GitHub
             </a>
           </footer>

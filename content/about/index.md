@@ -1,143 +1,94 @@
 ---
-title: About JongGyun Park
+title: About
 description: About JongGyun Park
 ---
 
 # 박 종균 (JongGyun Park)
 
-**Javascript** 그리고 **React**를 좋아하는 프론트엔트 개발자입니다.
+Learn, Share, Growth!
 
-그 순간을 위한 코딩이 아닌 향후를 생각하는 개발을 하고, 지금 방법 보다 더 나은 방법이 없을까 항상 고민하고 해결해나가는 개발자를 목표로 하고 있습니다.
+배우고, 공유하며 성장하는 프론트엔드 개발자 `박종균`입니다.
 
-<br />
+Javascript에 관심이 많으며 그 중 React를 가장 좋아합니다.
 
-> ## Skills
+끊임없이 발전하는 프론트엔드 생태계에서 Javascript의 기본 개념과 확장 가능하고 깨끗한 코드를 작성하는 것이 중요하다고 생각하고 있습니다. 또한, 사용자의 패턴을 파악하여 보다 사용자 중심의 서비스를 만드는 것을 목표로 합니다.
 
-**Front-End :** Javascript, React, jQuery, sass, styled-components, es6
+`#Concept of Javascript` `#Clean Code` `#Modular Code` `#React` `#Growth Hacking`
 
-**Back-End :** Java(with egovFramework), node.js
+## Work Experience
 
-<br />
+### 🏢 PlutusDS
 
-> ## Work Experience
+#### 2019.02 ~ Present
 
-**Plutusds** 2019.02 ~ Current
+- <b>Front-End Developer</b>
 
-- React SPA 유지보수
+- [한빗코](https://hanbitco.com) 서비스 (데스크탑, 모바일) 신규 기능 추가 및 유지보수
 
-- UI/UX를 고려한 페이지 리뉴얼 (메인, 마이페이지, 거래페이지 등)
+  - AWS를 활용한 Serverless 기능 구현(Lambda, DynamoDB, API Gateway)
 
-**Kaoni** 2017.06 ~ 2019.01
+  - 사용자 친화적인 UX를 적용한 거래소 모바일 서비스 리뉴얼
 
-- Java, jQuery를 이용한 그룹웨어 신규모듈 및 기능 개발 및 유지보수
+- React, Redux, node.js, AWS
 
-- Java, jQuery를 이용한 공공기관 SI 프로젝트 개발 및 유지보수
+<hr />
 
-**Postopia** 2016.01 ~ 2017.05
+### 🏢 Kaoni
 
-- Java로 된 사내 솔루션 추가 개발 및 유지보수
+#### 2017.06 ~ 2019.01
 
-- Java, jQuery를 이용한 사내 SI 프로젝트 개발 및 유지보수
+- <b>Web Developer</b>
 
-<br />
+- ezEKP 그룹웨어 서비스 신규 기능 추가 및 유지보수, 고객사 관리
 
-> ## Work Experience Details
+  - 시각화 툴을 활용한 모니터링 서비스 개발
 
-**at Plutusds**
+  - Active Directory 연동 서비스 개발
 
-- Front-End Developer
+  - 타사 제품과 연동한 통합검색 서비스 개발
 
-  React를 이용한 서비스 유지보수 및 개발
+- 공공기관 SI 프로젝트 참여
 
-**at Kaoni**
+- Java, JSP, Javascript, jQuery, MariaDB
 
-- 그룹웨어 신규 포탈 프로젝트(2018.09 ~ 2018.11) `참여인원: 4명`
+<hr />
 
-  MariaDB, Java를 이용한 REST Api Back-end 개발
+### 🏢 Postopia
 
-  Vanilla JS를 이용한 Front-end 개발
+#### 2016.01 ~ 2017.05
 
-- 공공기관 SI 프로젝트(2018.03 ~ 2018.06)
+- <b>Web Developer</b>
 
-  XML과 Java을 기반으로 타 시스템과 연동 모듈 개발 `참여인원: 3명`
+- 사내 직원이 사용하는 자체 솔루션 업무 지원
 
-  Java와 Javascript 이용한 조직도 트리 커스텀 모듈 개발 `참여인원: 1명`
+- 사내 직원을 위한 디자인 교정 시스템 프로젝트 참여
 
-  기타 고객 요구 프로세스 및 웹페이지 개발 참여 `참여인원: 6명`
+- Java, JSP, Javascript, jQuery, Oracle
 
-- 그룹웨어
+<hr />
 
-  전자결재 모듈 및 기타 모듈의 고객 사이트 유지보수
+## Personal Project
 
-  - 리딩투자증권, 일본 료비그룹, 사내 그룹웨어 커스터마이징 및 유지보수
+### [real-world (Next ver)](https://github.com/jonggyun/realworld-nextjs)
 
-  Java와 Javascript 이용한 XML 기반의 타사 통합검색엔진 연동 모듈 개발 `참여인원: 1명`
+|             |                                                         |
+| ----------- | ------------------------------------------------------- |
+| <b>목표</b> | Next를 활용하여 SSR 이해하기                            |
+| <b>설명</b> | real-world api를 이용한 SSR 프로젝트 진행               |
+| <b>기술</b> | Next, React(Hooks), redux, redux-saga, styled-compoents |
 
-  Java를 바탕으로 MSSQL to MariaDB 전자결재 Migration 모듈 개발(약 100만건의 데이터를 처리) `참여인원: 1명`
+### [box-officinfo](https://github.com/jonggyun/box-officinfo)
 
-  Java의 DirContext를 이용한 Windows 서버의 계층형 데이터베이스 ActiveDirectory의 조직도 연동 모듈 개발 `참여인원: 1명`
+|             |                                                                |
+| ----------- | -------------------------------------------------------------- |
+| <b>목표</b> | React Hooks, styled-components, Typescript 활용하기            |
+| <b>설명</b> | 영화진흥위원회 api를 이용한 정적 페이지                        |
+| <b>기술</b> | React(Hooks), typescript, redux, redux-thunk, styled-compoents |
 
-  Java로 만든 REST Api, Javascript 그리고 Jui Framework를 이용한 그래프로 보여주는 실시간 Linux 서버 시스템모니터링 모듈 개발 `참여인원: 1명`
+### [jongp-lab](https://github.com/jonggyun/jongp-lab)
 
-**at Postopia**
-
-- SI 프로젝트
-
-  Java와 Javascript 이용한 이미지 편집이 가능한 디자인교정시스템 개발 참여 `참여인원: 4명`
-
-- 사내 솔루션 개발 및 유지보수
-
-  Java를 이용한 Migration 모듈 개발 `참여인원: 2명`
-
-  사내 솔루션 유지 보수 및 고객 지원
-
-<br />
-
-> ## Projects
-
-- [box-officinfo](https://github.com/jonggyun/box-officinfo.git)
-
-  - 목표: Typescript, React Hooks, styled-componenents
-
-  - 영화진흥위원회 api를 이용한 static page Project
-
-  - Front-end: React(hooks), typescript, redux, redux thunk, styled-component
-
-- [jongp-Lab](https://github.com/jonggyun/jongp-lab)
-
-    <!-- - [개발 진행사항 - 블로그내용](https://jongp.me/ready-to-jongplab/) -->
-
-  - 목표: React Web Application 만들기
-
-  - Front-end: React, redux, Sass, cssModule
-
-  - Back-end: Node.js(express), mongoDB, mongoose
-
-<!--
-* [메모장](https://github.com/jonggyun/memo-app)
-
-  - ios의 메모 애플리캐이션 처럼 간단한 메모를 저장할 수 있는 애플리캐이션
-
-  - 목표: react의 component와 redux의 상태관리를 이해하기
-
-  - Front-end: React, redux, Sass, classname
-
-  - Back-end: Node.js(Koa Framework) -->
-
-<!-- - [Movieeeeeegle](https://github.com/jonggyun/movie-search-typescript)
-
-  - Naver의 영화 검색 api를 이용한 정말 간단한 영화 검색 웹 애플리케이션
-
-  - 목표
-
-    - VanillaJS, ES6, webpack 익숙해지기
-
-    - Typescript에 대한 설정 및 기본 개념 익히기
-
-    - webpack 익숙해지기
-
-    - eslint 익숙해지기
-
-  - Front-end: VanillaJS, ES6, Sass
-
-  - Back-end: Node.js(express) -->
+|             |                                                             |
+| ----------- | ----------------------------------------------------------- |
+| <b>목표</b> | Single Page Application과 친해지기                          |
+| <b>설명</b> | 첫 번째, SPA Project. 개인 블로그 만들기                    |
+| <b>기술</b> | React, redux, redux-thunk, sass, node.js, mongoDB, mongoose |
