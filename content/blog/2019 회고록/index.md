@@ -1,6 +1,6 @@
 ---
 title: 2019 회고록
-date: 2019-12-25
+date: 2020-01-05
 description: 2019 회고록
 tags:
   - '2019'

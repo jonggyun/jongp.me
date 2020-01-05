@@ -1,6 +1,6 @@
 ---
 title: React 프로젝트에 eslint, prettier 설정하기
-date: 2020-10-27
+date: 2019-10-27
 description: React 프로젝트에 eslint, prettier 설정하기
 ---
 
