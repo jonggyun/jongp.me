@@ -13,13 +13,43 @@ Javascript에 관심이 많으며 그 중 React를 가장 좋아합니다.
 
 끊임없이 발전하는 프론트엔드 생태계에서 Javascript의 기본 개념과 확장 가능하고 깨끗한 코드를 작성하는 것이 중요하다고 생각하고 있습니다. 또한, 사용자의 패턴을 파악하여 보다 사용자 중심의 서비스를 만드는 것을 목표로 합니다.
 
-`#Concept of Javascript` `#Clean Code` `#Modular Code` `#React` `#Growth Hacking`
+`#Concept of Javascript` `#Clean Code` `#Modular Code` `#React`
 
 ## Work Experience
 
+### 🏢 MBI Solution
+
+#### 2020.01 ~ Present
+
+- <b>Front-End Developer</b>
+
+- [해피톡](https://happytalk.io) 디자인 시스템 개발
+
+  - ESLint, Prettier 도입
+
+  - Storybook, React, Typescript, Emotion/core
+
+  - html nomodule을 이용한 모던브라우저 구분
+
+- [해피톡](https://happytalk.io) 대쉬보드 프론트엔트 리팩토링 진행 중
+
+  - ESLint, Prettier 도입
+
+  - jest & testing-library/react
+
+  - React, Typescript, Redux-saga
+
+- [상담톡](https://ars.happytalk.io) 유지보수
+
+- 내부 API 서비스 프론트엔드 개발
+
+  - React, Typescript, Context API, antd, Emotion/styled
+
+<hr />
+
 ### 🏢 PlutusDS
 
-#### 2019.02 ~ Present
+#### 2019.02 ~ 2019.12
 
 - <b>Front-End Developer</b>
 
@@ -69,13 +99,22 @@ Javascript에 관심이 많으며 그 중 React를 가장 좋아합니다.
 
 ## Personal Project
 
+### [anytime-anywhere-jobs](https://github.com/jonggyun/anywhere-anytime-jobs)
+
+|                        |                                                               |
+| ---------------------- | ------------------------------------------------------------- |
+| <b>목표</b>            | AWS를 활용한 serverless 구성하기                              |
+| <b>설명</b>            | 자율출퇴근, 원격을 지원하는 회사 목록을 제공하는 토이프로젝트 |
+| <b>기술: Back-end</b>  | node.js, express, AWS Cognito, AWS DynamoDB, AWS S3           |
+| <b>기술: Front-end</b> | React, Typescript, redux-saga, immer                          |
+
 ### [real-world (Next ver)](https://github.com/jonggyun/realworld-nextjs)
 
-|             |                                                         |
-| ----------- | ------------------------------------------------------- |
-| <b>목표</b> | Next를 활용하여 SSR 이해하기                            |
-| <b>설명</b> | real-world api를 이용한 SSR 프로젝트 진행               |
-| <b>기술</b> | Next, React(Hooks), redux, redux-saga, styled-compoents |
+|             |                                                          |
+| ----------- | -------------------------------------------------------- |
+| <b>목표</b> | Next를 활용하여 SSR 이해하기                             |
+| <b>설명</b> | real-world api를 이용한 SSR 프로젝트 진행                |
+| <b>기술</b> | Next, React(Hooks), redux, redux-saga, styled-components |
 
 ### [box-officinfo](https://github.com/jonggyun/box-officinfo)
 
