@@ -99,7 +99,7 @@ Javascript에 관심이 많으며 그 중 React를 가장 좋아합니다.
 
 ## Personal Project
 
-### [anytime-anywhere-jobs](https://github.com/jonggyun/anywhere-anytime-jobs)
+### [anywhere-anytime-jobs](https://github.com/jonggyun/anywhere-anytime-jobs)
 
 |                        |                                                               |
 | ---------------------- | ------------------------------------------------------------- |
